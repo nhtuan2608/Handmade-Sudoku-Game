@@ -6,9 +6,9 @@
 package sudoku;
 
 //import static sudoku.Load_Data.Check;
-import Form.*;
+import view.Form_Menu;
 import java.util.List;
-import static Form.Form_Menu.num_scene;
+import static view.Form_Menu.num_scene;
 /**
  *
  * @author Ruster
