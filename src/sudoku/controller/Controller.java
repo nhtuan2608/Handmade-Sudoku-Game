@@ -20,14 +20,12 @@ import static view.Form_Menu.fileCheck;
 import static view.Form_Main.btnSquare1;
 import static view.Form_Main.btnSquare10;
 import static view.Form_Main.btnSquare11;
-import static view.Form_Main.btnSquare12;
 import static view.Form_Main.btnSquare13;
 import static view.Form_Main.btnSquare14;
 import static view.Form_Main.btnSquare15;
 import static view.Form_Main.btnSquare16;
 import static view.Form_Main.btnSquare17;
 import static view.Form_Main.btnSquare18;
-import static view.Form_Main.btnSquare19;
 import static view.Form_Main.btnSquare2;
 import static view.Form_Main.btnSquare20;
 import static view.Form_Main.btnSquare21;
@@ -98,16 +96,15 @@ import static view.Form_Main.btnSquare8;
 import static view.Form_Main.btnSquare80;
 import static view.Form_Main.btnSquare81;
 import static view.Form_Main.btnSquare9;
+import static view.Form_Main.btnSquare19;
+import static view.Form_Main.btnSquare12;
 /**
  *
  * @author Ruster
  */
-public class Controller {
-
-    /**
-     *
-     * @param fileName
-     */
+public class Controller extends DisabledButton{
+    
+    
     
     public static int isFalse;
     public static void LoadScene(String fileName)

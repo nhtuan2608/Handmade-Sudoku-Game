@@ -6,7 +6,6 @@
 package view;
 
 import java.awt.Color;
-import java.awt.event.MouseListener;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ImageIcon;
@@ -468,6 +467,7 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
         btnClear.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnClear.setText("Clear");
         btnClear.setComponentPopupMenu(Popup_Clear);
+        btnClear.setEnabled(false);
         btnClear.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
                 btnClearMouseReleased(evt);
@@ -544,81 +544,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare1ActionPerformed(evt);
+        btnSquare1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare1MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare1);
 
         btnSquare2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare2ActionPerformed(evt);
+        btnSquare2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare2MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare2);
 
         btnSquare3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare3ActionPerformed(evt);
+        btnSquare3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare3MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare3);
 
         btnSquare10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare10ActionPerformed(evt);
+        btnSquare10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare10MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare10);
 
         btnSquare11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare11ActionPerformed(evt);
+        btnSquare11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare11MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare11);
 
         btnSquare19.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare19ActionPerformed(evt);
+        btnSquare19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare19MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare19);
 
         btnSquare20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare20ActionPerformed(evt);
+        btnSquare20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare20MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare20);
 
         btnSquare21.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare21ActionPerformed(evt);
+        btnSquare21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare21MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare21);
 
         btnSquare12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare12ActionPerformed(evt);
+        btnSquare12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare12MouseReleased(evt);
             }
         });
         jPanel5.add(btnSquare12);
@@ -631,81 +631,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare4ActionPerformed(evt);
+        btnSquare4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                btnSquare4MousePressed(evt);
             }
         });
         jPanel17.add(btnSquare4);
 
         btnSquare5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare5ActionPerformed(evt);
+        btnSquare5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare5MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare5);
 
         btnSquare6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare6ActionPerformed(evt);
+        btnSquare6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare6MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare6);
 
         btnSquare13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare13ActionPerformed(evt);
+        btnSquare13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare13MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare13);
 
         btnSquare14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare14ActionPerformed(evt);
+        btnSquare14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare14MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare14);
 
         btnSquare15.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare15ActionPerformed(evt);
+        btnSquare15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                btnSquare15MousePressed(evt);
             }
         });
         jPanel17.add(btnSquare15);
 
         btnSquare22.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare22ActionPerformed(evt);
+        btnSquare22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare22MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare22);
 
         btnSquare23.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare23ActionPerformed(evt);
+        btnSquare23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare23MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare23);
 
         btnSquare24.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare24.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare24ActionPerformed(evt);
+        btnSquare24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare24MouseReleased(evt);
             }
         });
         jPanel17.add(btnSquare24);
@@ -718,81 +718,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare7ActionPerformed(evt);
+        btnSquare7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare7MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare7);
 
         btnSquare8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare8ActionPerformed(evt);
+        btnSquare8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare8MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare8);
 
         btnSquare9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare9ActionPerformed(evt);
+        btnSquare9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare9MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare9);
 
         btnSquare16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare16ActionPerformed(evt);
+        btnSquare16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare16MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare16);
 
         btnSquare17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare17ActionPerformed(evt);
+        btnSquare17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare17MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare17);
 
         btnSquare18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare18ActionPerformed(evt);
+        btnSquare18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare18MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare18);
 
         btnSquare25.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare25.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare25ActionPerformed(evt);
+        btnSquare25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare25MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare25);
 
         btnSquare26.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare26ActionPerformed(evt);
+        btnSquare26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare26MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare26);
 
         btnSquare27.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare27.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare27ActionPerformed(evt);
+        btnSquare27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare27MouseReleased(evt);
             }
         });
         jPanel18.add(btnSquare27);
@@ -805,81 +805,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare28.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare28.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare28ActionPerformed(evt);
+        btnSquare28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare28MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare28);
 
         btnSquare29.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare29ActionPerformed(evt);
+        btnSquare29.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare29MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare29);
 
         btnSquare30.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare30.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare30ActionPerformed(evt);
+        btnSquare30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare30MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare30);
 
         btnSquare37.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare37.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare37.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare37ActionPerformed(evt);
+        btnSquare37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare37MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare37);
 
         btnSquare38.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare38.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare38.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare38ActionPerformed(evt);
+        btnSquare38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare38MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare38);
 
         btnSquare39.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare39.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare39.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare39ActionPerformed(evt);
+        btnSquare39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare39MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare39);
 
         btnSquare46.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare46.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare46.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare46ActionPerformed(evt);
+        btnSquare46.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare46MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare46);
 
         btnSquare47.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare47.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare47.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare47ActionPerformed(evt);
+        btnSquare47.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare47MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare47);
 
         btnSquare48.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare48.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare48ActionPerformed(evt);
+        btnSquare48.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare48MouseReleased(evt);
             }
         });
         jPanel19.add(btnSquare48);
@@ -892,81 +892,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare31.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare31.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare31ActionPerformed(evt);
+        btnSquare31.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare31MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare31);
 
         btnSquare32.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare32.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare32ActionPerformed(evt);
+        btnSquare32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare32MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare32);
 
         btnSquare33.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare33.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare33.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare33ActionPerformed(evt);
+        btnSquare33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare33MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare33);
 
         btnSquare40.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare40.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare40.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare40ActionPerformed(evt);
+        btnSquare40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare40MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare40);
 
         btnSquare41.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare41.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare41.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare41ActionPerformed(evt);
+        btnSquare41.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare41MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare41);
 
         btnSquare42.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare42.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare42.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare42ActionPerformed(evt);
+        btnSquare42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare42MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare42);
 
         btnSquare49.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare49.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare49ActionPerformed(evt);
+        btnSquare49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare49MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare49);
 
         btnSquare50.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare50.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare50ActionPerformed(evt);
+        btnSquare50.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare50MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare50);
 
         btnSquare51.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare51.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare51.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare51ActionPerformed(evt);
+        btnSquare51.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare51MouseReleased(evt);
             }
         });
         jPanel20.add(btnSquare51);
@@ -979,81 +979,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare34.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare34.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare34ActionPerformed(evt);
+        btnSquare34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare34MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare34);
 
         btnSquare35.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare35.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare35.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare35ActionPerformed(evt);
+        btnSquare35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare35MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare35);
 
         btnSquare36.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare36.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare36ActionPerformed(evt);
+        btnSquare36.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare36MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare36);
 
         btnSquare43.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare43.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare43ActionPerformed(evt);
+        btnSquare43.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare43MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare43);
 
         btnSquare44.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare44.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare44ActionPerformed(evt);
+        btnSquare44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare44MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare44);
 
         btnSquare45.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare45.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare45.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare45ActionPerformed(evt);
+        btnSquare45.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare45MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare45);
 
         btnSquare52.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare52.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare52.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare52ActionPerformed(evt);
+        btnSquare52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare52MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare52);
 
         btnSquare53.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare53.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare53.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare53ActionPerformed(evt);
+        btnSquare53.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare53MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare53);
 
         btnSquare54.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare54.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare54.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare54ActionPerformed(evt);
+        btnSquare54.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare54MouseReleased(evt);
             }
         });
         jPanel22.add(btnSquare54);
@@ -1066,81 +1066,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare55.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare55.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare55.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare55ActionPerformed(evt);
+        btnSquare55.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare55MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare55);
 
         btnSquare56.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare56.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare56.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare56ActionPerformed(evt);
+        btnSquare56.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare56MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare56);
 
         btnSquare57.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare57.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare57.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare57ActionPerformed(evt);
+        btnSquare57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare57MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare57);
 
         btnSquare64.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare64.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare64ActionPerformed(evt);
+        btnSquare64.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare64MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare64);
 
         btnSquare65.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare65.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare65.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare65ActionPerformed(evt);
+        btnSquare65.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare65MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare65);
 
         btnSquare66.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare66.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare66.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare66ActionPerformed(evt);
+        btnSquare66.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare66MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare66);
 
         btnSquare73.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare73.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare73.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare73ActionPerformed(evt);
+        btnSquare73.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare73MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare73);
 
         btnSquare74.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare74.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare74.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare74ActionPerformed(evt);
+        btnSquare74.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare74MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare74);
 
         btnSquare75.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare75.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare75.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare75ActionPerformed(evt);
+        btnSquare75.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare75MouseReleased(evt);
             }
         });
         jPanel23.add(btnSquare75);
@@ -1153,81 +1153,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare58.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare58.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare58.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare58ActionPerformed(evt);
+        btnSquare58.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare58MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare58);
 
         btnSquare59.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare59.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare59.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare59ActionPerformed(evt);
+        btnSquare59.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare59MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare59);
 
         btnSquare60.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare60.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare60.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare60ActionPerformed(evt);
+        btnSquare60.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                btnSquare60MousePressed(evt);
             }
         });
         jPanel24.add(btnSquare60);
 
         btnSquare67.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare67.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare67.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare67ActionPerformed(evt);
+        btnSquare67.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare67MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare67);
 
         btnSquare68.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare68.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare68.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare68ActionPerformed(evt);
+        btnSquare68.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare68MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare68);
 
         btnSquare69.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare69.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare69.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare69ActionPerformed(evt);
+        btnSquare69.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare69MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare69);
 
         btnSquare76.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare76.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare76.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare76ActionPerformed(evt);
+        btnSquare76.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare76MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare76);
 
         btnSquare77.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare77.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare77.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare77ActionPerformed(evt);
+        btnSquare77.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare77MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare77);
 
         btnSquare78.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare78.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare78.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare78ActionPerformed(evt);
+        btnSquare78.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare78MouseReleased(evt);
             }
         });
         jPanel24.add(btnSquare78);
@@ -1240,81 +1240,81 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
 
         btnSquare61.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare61.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare61.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare61ActionPerformed(evt);
+        btnSquare61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare61MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare61);
 
         btnSquare62.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare62.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare62.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare62ActionPerformed(evt);
+        btnSquare62.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare62MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare62);
 
         btnSquare63.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare63.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare63.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare63ActionPerformed(evt);
+        btnSquare63.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare63MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare63);
 
         btnSquare70.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare70.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare70.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare70ActionPerformed(evt);
+        btnSquare70.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare70MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare70);
 
         btnSquare71.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare71.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare71.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare71ActionPerformed(evt);
+        btnSquare71.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare71MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare71);
 
         btnSquare72.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare72.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare72.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare72ActionPerformed(evt);
+        btnSquare72.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare72MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare72);
 
         btnSquare79.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare79.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare79.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare79ActionPerformed(evt);
+        btnSquare79.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare79MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare79);
 
         btnSquare80.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare80.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare80.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare80ActionPerformed(evt);
+        btnSquare80.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare80MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare80);
 
         btnSquare81.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnSquare81.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSquare81.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSquare81ActionPerformed(evt);
+        btnSquare81.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                btnSquare81MouseReleased(evt);
             }
         });
         jPanel25.add(btnSquare81);
@@ -1379,1221 +1379,6 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnSquare4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare4ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 4;
-            btnSquare4.setBackground(choosen);
-            checkChoice();
-            btnSquare4.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare4.setText("");
-            isClear=false;
-        }    
-    }//GEN-LAST:event_btnSquare4ActionPerformed
-
-    private void btnSquare7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare7ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 7;
-            btnSquare7.setBackground(choosen);
-            checkChoice();
-            btnSquare7.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare7.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare7ActionPerformed
-
-    private void btnSquare9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare9ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 9;
-            btnSquare9.setBackground(choosen);
-            checkChoice();
-            btnSquare9.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare9.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare9ActionPerformed
-
-    private void btnSquare28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare28ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 28;
-            btnSquare28.setBackground(choosen);
-            checkChoice();
-            btnSquare28.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare28.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare28ActionPerformed
-
-    private void btnSquare30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare30ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 30;
-            btnSquare30.setBackground(choosen);
-            checkChoice();
-            btnSquare30.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare30.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare30ActionPerformed
-
-    private void btnSquare31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare31ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 31;
-            btnSquare31.setBackground(choosen);
-            checkChoice();
-            btnSquare31.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare31.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare31ActionPerformed
-
-    private void btnSquare33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare33ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 33;
-            btnSquare33.setBackground(choosen);
-            checkChoice();
-            btnSquare33.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare33.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare33ActionPerformed
-
-    private void btnSquare34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare34ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 34;
-            btnSquare34.setBackground(choosen);
-            checkChoice();
-            btnSquare34.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare34.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare34ActionPerformed
-
-    private void btnSquare36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare36ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 36;
-            btnSquare36.setBackground(choosen);
-            checkChoice();
-            btnSquare36.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare36.setText("");
-            isClear=false;
-        }    
-    }//GEN-LAST:event_btnSquare36ActionPerformed
-
-    private void btnSquare55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare55ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 55;
-            btnSquare55.setBackground(choosen);
-            checkChoice();
-            btnSquare55.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare55.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare55ActionPerformed
-
-    private void btnSquare57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare57ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 57;
-            btnSquare57.setBackground(choosen);
-            checkChoice();
-            btnSquare57.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare57.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare57ActionPerformed
-
-    private void btnSquare58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare58ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 58;
-            btnSquare58.setBackground(choosen);
-            checkChoice();
-            btnSquare58.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare58.setText("");
-            isClear=false;
-        }     
-    }//GEN-LAST:event_btnSquare58ActionPerformed
-
-    private void btnSquare60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare60ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 60;
-            btnSquare60.setBackground(choosen);
-            checkChoice();
-            btnSquare60.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare60.setText("");
-            isClear=false;
-        }    
-    }//GEN-LAST:event_btnSquare60ActionPerformed
-
-    private void btnSquare61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare61ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 61;
-            btnSquare61.setBackground(choosen);
-            checkChoice();
-            btnSquare61.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare61.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare61ActionPerformed
-
-    private void btnSquare63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare63ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 63;
-            btnSquare63.setBackground(choosen);
-            checkChoice();
-            btnSquare63.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare63.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare63ActionPerformed
-
-    private void btnSquare59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare59ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 59;
-            btnSquare59.setBackground(choosen);
-            checkChoice();
-            btnSquare59.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare59.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare59ActionPerformed
-
-    private void btnSquare67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare67ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 67;
-            btnSquare67.setBackground(choosen);
-            checkChoice();
-            btnSquare67.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare67.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare67ActionPerformed
-
-    private void btnSquare1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare1ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 1;
-            btnSquare1.setBackground(choosen);
-            checkChoice();
-            btnSquare1.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare1.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare1ActionPerformed
-
-    private void btnSquare2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare2ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 2;
-            btnSquare2.setBackground(choosen);
-            checkChoice();
-            btnSquare2.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare2.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare2ActionPerformed
-
-    private void btnSquare3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare3ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 3;
-            btnSquare3.setBackground(choosen);
-            checkChoice();
-            btnSquare3.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare3.setText("");
-            isClear=false;
-        }    
-    }//GEN-LAST:event_btnSquare3ActionPerformed
-
-    private void btnSquare5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare5ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 5;
-            btnSquare5.setBackground(choosen);
-            checkChoice();
-            btnSquare5.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare5.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare5ActionPerformed
-
-    private void btnSquare6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare6ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 6;
-            btnSquare6.setBackground(choosen);
-            checkChoice();
-            btnSquare6.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare6.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare6ActionPerformed
-
-    private void btnSquare8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare8ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 8;
-            btnSquare8.setBackground(choosen);
-            checkChoice();
-            btnSquare8.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare8.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare8ActionPerformed
-
-    private void btnSquare10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare10ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 10;
-            btnSquare10.setBackground(choosen);
-            checkChoice();
-            btnSquare10.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare10.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare10ActionPerformed
-
-    private void btnSquare11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare11ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 11;
-            btnSquare11.setBackground(choosen);
-            checkChoice();
-            btnSquare11.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare11.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare11ActionPerformed
-
-    private void btnSquare12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare12ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 12;
-            btnSquare12.setBackground(choosen);
-            checkChoice();
-            btnSquare12.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare12.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare12ActionPerformed
-
-    private void btnSquare13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare13ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 13;
-            btnSquare13.setBackground(choosen);
-            checkChoice();
-            btnSquare13.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare13.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare13ActionPerformed
-
-    private void btnSquare14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare14ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 14;
-            btnSquare14.setBackground(choosen);
-            checkChoice();
-            btnSquare14.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare14.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare14ActionPerformed
-
-    private void btnSquare15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare15ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 15;
-            btnSquare15.setBackground(choosen);
-            checkChoice();
-            btnSquare15.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare15.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare15ActionPerformed
-
-    private void btnSquare16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare16ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 16;
-            btnSquare16.setBackground(choosen);
-            checkChoice();
-            btnSquare16.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare16.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare16ActionPerformed
-
-    private void btnSquare17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare17ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 17;
-            btnSquare17.setBackground(choosen);
-            checkChoice();
-            btnSquare17.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare17.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare17ActionPerformed
-
-    private void btnSquare18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare18ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 18;
-            btnSquare18.setBackground(choosen);
-            checkChoice();
-            btnSquare18.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare18.setText("");
-            isClear=false;
-        }    
-    }//GEN-LAST:event_btnSquare18ActionPerformed
-
-    private void btnSquare19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare19ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 19;
-            btnSquare19.setBackground(choosen);
-            checkChoice();
-            btnSquare19.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare19.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare19ActionPerformed
-
-    private void btnSquare20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare20ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 20;
-            btnSquare20.setBackground(choosen);
-            checkChoice();
-            btnSquare20.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare20.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare20ActionPerformed
-
-    private void btnSquare21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare21ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 21;
-            btnSquare21.setBackground(choosen);
-            checkChoice();
-            btnSquare21.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare21.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare21ActionPerformed
-
-    private void btnSquare22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare22ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 22;
-            btnSquare22.setBackground(choosen);
-            checkChoice();
-            btnSquare22.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare22.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare22ActionPerformed
-
-    private void btnSquare23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare23ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 23;
-            btnSquare23.setBackground(choosen);
-            checkChoice();
-            btnSquare23.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare23.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare23ActionPerformed
-
-    private void btnSquare24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare24ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 24;
-            btnSquare24.setBackground(choosen);
-            checkChoice();
-            btnSquare24.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare24.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare24ActionPerformed
-
-    private void btnSquare25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare25ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 25;
-            btnSquare25.setBackground(choosen);
-            checkChoice();
-            btnSquare25.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare25.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare25ActionPerformed
-
-    private void btnSquare26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare26ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 26;
-            btnSquare26.setBackground(choosen);
-            checkChoice();
-            btnSquare26.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare26.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare26ActionPerformed
-
-    private void btnSquare27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare27ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 27;
-            btnSquare27.setBackground(choosen);
-            checkChoice();
-            btnSquare27.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare27.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare27ActionPerformed
-
-    private void btnSquare29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare29ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 29;
-            btnSquare29.setBackground(choosen);
-            checkChoice();
-            btnSquare29.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare29.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare29ActionPerformed
-
-    private void btnSquare32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare32ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 32;
-            btnSquare32.setBackground(choosen);
-            checkChoice();
-            btnSquare32.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare32.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare32ActionPerformed
-
-    private void btnSquare35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare35ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 35;
-            btnSquare35.setBackground(choosen);
-            checkChoice();
-            btnSquare35.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare35.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare35ActionPerformed
-
-    private void btnSquare37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare37ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 37;
-            btnSquare37.setBackground(choosen);
-            checkChoice();
-            btnSquare37.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare37.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare37ActionPerformed
-
-    private void btnSquare38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare38ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 38;
-            btnSquare38.setBackground(choosen);
-            checkChoice();
-            btnSquare38.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare38.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare38ActionPerformed
-
-    private void btnSquare39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare39ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 39;
-            btnSquare39.setBackground(choosen);
-            checkChoice();
-            btnSquare39.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare39.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare39ActionPerformed
-
-    private void btnSquare40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare40ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 40;
-            btnSquare40.setBackground(choosen);
-            checkChoice();
-            btnSquare40.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare40.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare40ActionPerformed
-
-    private void btnSquare41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare41ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 41;
-            btnSquare41.setBackground(choosen);
-            checkChoice();
-            btnSquare41.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare41.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare41ActionPerformed
-
-    private void btnSquare42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare42ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 42;
-            btnSquare42.setBackground(choosen);
-            checkChoice();
-            btnSquare42.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare42.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare42ActionPerformed
-
-    private void btnSquare43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare43ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 43;
-            btnSquare43.setBackground(choosen);
-            checkChoice();
-            btnSquare43.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare43.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare43ActionPerformed
-
-    private void btnSquare44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare44ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 44;
-            btnSquare44.setBackground(choosen);
-            checkChoice();
-            btnSquare44.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare44.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare44ActionPerformed
-
-    private void btnSquare45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare45ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 45;
-            btnSquare45.setBackground(choosen);
-            checkChoice();
-            btnSquare45.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare45.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare45ActionPerformed
-
-    private void btnSquare46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare46ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 46;
-            btnSquare46.setBackground(choosen);
-            checkChoice();
-            btnSquare46.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare46.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare46ActionPerformed
-
-    private void btnSquare47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare47ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 47;
-            btnSquare47.setBackground(choosen);
-            checkChoice();
-            btnSquare47.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare47.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare47ActionPerformed
-
-    private void btnSquare48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare48ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 48;
-            btnSquare48.setBackground(choosen);
-            checkChoice();
-            btnSquare48.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare48.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare48ActionPerformed
-
-    private void btnSquare50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare50ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 50;
-            btnSquare50.setBackground(choosen);
-            checkChoice();
-            btnSquare50.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare50.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare50ActionPerformed
-
-    private void btnSquare49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare49ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 49;
-            btnSquare49.setBackground(choosen);
-            checkChoice();
-            btnSquare49.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare49.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare49ActionPerformed
-
-    private void btnSquare51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare51ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 51;
-            btnSquare51.setBackground(choosen);
-            checkChoice();
-            btnSquare51.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare51.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare51ActionPerformed
-
-    private void btnSquare52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare52ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 52;
-            btnSquare52.setBackground(choosen);
-            checkChoice();
-            btnSquare52.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare52.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare52ActionPerformed
-
-    private void btnSquare53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare53ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 53;
-            btnSquare53.setBackground(choosen);
-            checkChoice();
-            btnSquare53.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare53.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare53ActionPerformed
-
-    private void btnSquare54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare54ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 54;
-            btnSquare54.setBackground(choosen);
-            checkChoice();
-            btnSquare54.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare54.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare54ActionPerformed
-
-    private void btnSquare56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare56ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 56;
-            btnSquare56.setBackground(choosen);
-            checkChoice();
-            btnSquare56.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare56.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare56ActionPerformed
-
-    private void btnSquare62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare62ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 62;
-            btnSquare62.setBackground(choosen);
-            checkChoice();
-            btnSquare62.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare62.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare62ActionPerformed
-
-    private void btnSquare64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare64ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 64;
-            btnSquare64.setBackground(choosen);
-            checkChoice();
-            btnSquare64.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare64.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare64ActionPerformed
-
-    private void btnSquare65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare65ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 65;
-            btnSquare65.setBackground(choosen);
-            checkChoice();
-            btnSquare65.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare65.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare65ActionPerformed
-
-    private void btnSquare66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare66ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 66;
-            btnSquare66.setBackground(choosen);
-            checkChoice();
-            btnSquare66.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare66.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare66ActionPerformed
-
-    private void btnSquare68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare68ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 68;
-            btnSquare68.setBackground(choosen);
-            checkChoice();
-            btnSquare68.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare68.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare68ActionPerformed
-
-    private void btnSquare69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare69ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 69;
-            btnSquare69.setBackground(choosen);
-            checkChoice();
-            btnSquare69.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare69.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare69ActionPerformed
-
-    private void btnSquare70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare70ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 70;
-            btnSquare70.setBackground(choosen);
-            checkChoice();
-            btnSquare70.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare70.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare70ActionPerformed
-
-    private void btnSquare71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare71ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 71;
-            btnSquare71.setBackground(choosen);
-            checkChoice();
-            btnSquare71.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare71.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare71ActionPerformed
-
-    private void btnSquare72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare72ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 72;
-            btnSquare72.setBackground(choosen);
-            checkChoice();
-            btnSquare72.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare72.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare72ActionPerformed
-
-    private void btnSquare73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare73ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 73;
-            btnSquare73.setBackground(choosen);
-            checkChoice();
-            btnSquare73.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare73.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare73ActionPerformed
-
-    private void btnSquare74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare74ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 74;
-            btnSquare74.setBackground(choosen);
-            checkChoice();
-            btnSquare74.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare74.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare74ActionPerformed
-
-    private void btnSquare75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare75ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 75;
-            btnSquare75.setBackground(choosen);
-            checkChoice();
-            btnSquare75.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare75.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare75ActionPerformed
-
-    private void btnSquare76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare76ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 76;
-            btnSquare76.setBackground(choosen);
-            checkChoice();
-            btnSquare76.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare76.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare76ActionPerformed
-
-    private void btnSquare77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare77ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 77;
-            btnSquare77.setBackground(choosen);
-            checkChoice();
-            btnSquare77.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare77.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare77ActionPerformed
-
-    private void btnSquare78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare78ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 78;
-            btnSquare78.setBackground(choosen);
-            checkChoice();
-            btnSquare78.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare78.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare78ActionPerformed
-
-    private void btnSquare79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare79ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 79;
-            btnSquare79.setBackground(choosen);
-            checkChoice();
-            btnSquare79.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare79.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare79ActionPerformed
-
-    private void btnSquare80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare80ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 80;
-            btnSquare80.setBackground(choosen);
-            checkChoice();
-            btnSquare80.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare80.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare80ActionPerformed
-
-    private void btnSquare81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquare81ActionPerformed
-        if(isClear==false)
-        {
-            number_Choose = 81;
-            btnSquare81.setBackground(choosen);
-            checkChoice();
-            btnSquare81.setBackground(jbb);
-        }
-        else
-        {
-            btnSquare81.setText("");
-            isClear=false;
-        }
-    }//GEN-LAST:event_btnSquare81ActionPerformed
     
     private void btnMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuActionPerformed
         JMenu menu = new JMenu();
@@ -3469,6 +2254,1464 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
             sudoku.controller.Controller.LoadScene(view.Form_Menu.fileLoad);
         }   
     }//GEN-LAST:event_Menu_AllSquaresActionPerformed
+
+    private void btnSquare1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare1MouseReleased
+        if(btnSquare1.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 1;
+                btnSquare1.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare1.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare1.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare1MouseReleased
+
+    private void btnSquare2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare2MouseReleased
+        if(btnSquare2.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 2;
+                btnSquare2.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare2.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare2.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare2MouseReleased
+
+    private void btnSquare3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare3MouseReleased
+        if(btnSquare3.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 3;
+                btnSquare3.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare3.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare3.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare3MouseReleased
+
+    private void btnSquare4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare4MousePressed
+        if(btnSquare4.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 4;
+                btnSquare4.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare4.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare4.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare4MousePressed
+
+    private void btnSquare5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare5MouseReleased
+        if(btnSquare5.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 5;
+                btnSquare5.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare5.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare5.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare5MouseReleased
+
+    private void btnSquare6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare6MouseReleased
+        if(btnSquare6.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 6;
+                btnSquare6.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare6.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare6.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare6MouseReleased
+
+    private void btnSquare7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare7MouseReleased
+        if(btnSquare7.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 7;
+                btnSquare7.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare7.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare7.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare7MouseReleased
+
+    private void btnSquare8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare8MouseReleased
+        if(btnSquare8.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 8;
+                btnSquare8.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare8.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare8.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare8MouseReleased
+
+    private void btnSquare9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare9MouseReleased
+        if(btnSquare9.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 9;
+                btnSquare9.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare9.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare9.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare9MouseReleased
+
+    private void btnSquare10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare10MouseReleased
+        if(btnSquare10.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 10;
+                btnSquare10.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare10.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare10.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare10MouseReleased
+
+    private void btnSquare11MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare11MouseReleased
+        if(btnSquare11.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 11;
+                btnSquare11.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare11.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare11.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare11MouseReleased
+
+    private void btnSquare19MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare19MouseReleased
+        if(btnSquare19.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 19;
+                btnSquare19.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare19.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare19.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare19MouseReleased
+
+    private void btnSquare13MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare13MouseReleased
+        if(btnSquare13.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 13;
+                btnSquare13.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare13.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare13.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare13MouseReleased
+
+    private void btnSquare14MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare14MouseReleased
+        if(btnSquare14.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 14;
+                btnSquare14.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare14.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare14.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare14MouseReleased
+
+    private void btnSquare15MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare15MousePressed
+        if(btnSquare15.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 15;
+                btnSquare15.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare15.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare15.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare15MousePressed
+
+    private void btnSquare16MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare16MouseReleased
+        if(btnSquare16.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 16;
+                btnSquare16.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare16.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare16.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare16MouseReleased
+
+    private void btnSquare17MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare17MouseReleased
+        if(btnSquare17.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 17;
+                btnSquare17.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare17.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare17.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare17MouseReleased
+
+    private void btnSquare18MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare18MouseReleased
+        if(btnSquare18.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 18;
+                btnSquare18.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare18.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare18.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare18MouseReleased
+
+    private void btnSquare20MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare20MouseReleased
+        if(btnSquare20.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 20;
+                btnSquare20.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare20.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare20.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare20MouseReleased
+
+    private void btnSquare21MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare21MouseReleased
+        if(btnSquare21.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 21;
+                btnSquare21.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare21.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare21.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare21MouseReleased
+
+    private void btnSquare12MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare12MouseReleased
+        if(btnSquare12.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 12;
+                btnSquare12.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare12.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare12.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare12MouseReleased
+
+    private void btnSquare22MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare22MouseReleased
+        if(btnSquare22.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 22;
+                btnSquare22.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare22.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare22.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare22MouseReleased
+
+    private void btnSquare23MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare23MouseReleased
+        if(btnSquare23.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 23;
+                btnSquare23.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare23.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare23.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare23MouseReleased
+
+    private void btnSquare24MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare24MouseReleased
+        if(btnSquare24.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 24;
+                btnSquare24.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare24.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare24.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare24MouseReleased
+
+    private void btnSquare25MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare25MouseReleased
+        if(btnSquare25.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 25;
+                btnSquare25.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare25.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare25.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare25MouseReleased
+
+    private void btnSquare26MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare26MouseReleased
+        if(btnSquare26.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 26;
+                btnSquare26.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare26.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare26.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare26MouseReleased
+
+    private void btnSquare27MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare27MouseReleased
+        if(btnSquare27.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 27;
+                btnSquare27.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare27.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare27.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare27MouseReleased
+
+    private void btnSquare28MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare28MouseReleased
+        if(btnSquare28.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 28;
+                btnSquare28.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare28.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare28.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare28MouseReleased
+
+    private void btnSquare29MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare29MouseReleased
+        if(btnSquare29.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 29;
+                btnSquare29.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare29.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare29.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare29MouseReleased
+
+    private void btnSquare30MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare30MouseReleased
+        if(btnSquare30.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 30;
+                btnSquare30.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare30.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare30.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare30MouseReleased
+
+    private void btnSquare31MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare31MouseReleased
+        if(btnSquare31.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 31;
+                btnSquare31.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare31.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare31.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare31MouseReleased
+
+    private void btnSquare32MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare32MouseReleased
+        if(btnSquare32.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 32;
+                btnSquare32.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare32.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare32.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare32MouseReleased
+
+    private void btnSquare33MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare33MouseReleased
+        if(btnSquare33.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 33;
+                btnSquare33.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare33.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare33.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare33MouseReleased
+
+    private void btnSquare34MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare34MouseReleased
+        if(btnSquare34.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 34;
+                btnSquare34.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare34.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare34.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare34MouseReleased
+
+    private void btnSquare35MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare35MouseReleased
+        if(btnSquare35.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 35;
+                btnSquare35.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare35.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare35.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare35MouseReleased
+
+    private void btnSquare36MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare36MouseReleased
+        if(btnSquare36.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 36;
+                btnSquare36.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare36.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare36.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare36MouseReleased
+
+    private void btnSquare37MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare37MouseReleased
+        if(btnSquare37.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 37;
+                btnSquare37.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare37.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare37.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare37MouseReleased
+
+    private void btnSquare38MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare38MouseReleased
+        if(btnSquare38.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 38;
+                btnSquare38.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare38.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare38.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare38MouseReleased
+
+    private void btnSquare39MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare39MouseReleased
+        if(btnSquare39.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 39;
+                btnSquare39.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare39.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare39.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare39MouseReleased
+
+    private void btnSquare40MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare40MouseReleased
+        if(btnSquare40.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 40;
+                btnSquare40.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare40.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare40.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare40MouseReleased
+
+    private void btnSquare41MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare41MouseReleased
+        if(btnSquare41.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 41;
+                btnSquare41.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare41.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare41.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare41MouseReleased
+
+    private void btnSquare42MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare42MouseReleased
+        if(btnSquare42.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 42;
+                btnSquare42.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare42.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare42.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare42MouseReleased
+
+    private void btnSquare43MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare43MouseReleased
+        if(btnSquare43.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 43;
+                btnSquare43.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare43.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare43.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare43MouseReleased
+
+    private void btnSquare44MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare44MouseReleased
+        if(btnSquare44.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 44;
+                btnSquare44.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare44.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare44.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare44MouseReleased
+
+    private void btnSquare45MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare45MouseReleased
+        if(btnSquare45.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 45;
+                btnSquare45.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare45.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare45.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare45MouseReleased
+
+    private void btnSquare46MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare46MouseReleased
+        if(btnSquare46.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 46;
+                btnSquare46.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare46.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare46.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare46MouseReleased
+
+    private void btnSquare47MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare47MouseReleased
+        if(btnSquare47.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 47;
+                btnSquare47.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare47.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare47.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare47MouseReleased
+
+    private void btnSquare48MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare48MouseReleased
+        if(btnSquare48.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 48;
+                btnSquare48.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare48.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare48.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare48MouseReleased
+
+    private void btnSquare49MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare49MouseReleased
+        if(btnSquare49.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 49;
+                btnSquare49.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare49.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare49.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare49MouseReleased
+
+    private void btnSquare50MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare50MouseReleased
+        if(btnSquare50.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 50;
+                btnSquare50.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare50.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare50.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare50MouseReleased
+
+    private void btnSquare51MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare51MouseReleased
+        if(btnSquare51.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 51;
+                btnSquare51.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare51.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare51.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare51MouseReleased
+
+    private void btnSquare52MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare52MouseReleased
+        if(btnSquare52.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 52;
+                btnSquare52.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare52.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare52.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare52MouseReleased
+
+    private void btnSquare53MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare53MouseReleased
+        if(btnSquare53.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 53;
+                btnSquare53.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare53.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare53.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare53MouseReleased
+
+    private void btnSquare54MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare54MouseReleased
+        if(btnSquare54.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 54;
+                btnSquare54.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare54.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare54.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare54MouseReleased
+
+    private void btnSquare55MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare55MouseReleased
+        if(btnSquare55.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 55;
+                btnSquare55.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare55.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare55.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare55MouseReleased
+
+    private void btnSquare56MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare56MouseReleased
+        if(btnSquare56.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 56;
+                btnSquare56.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare56.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare56.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare56MouseReleased
+
+    private void btnSquare57MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare57MouseReleased
+        if(btnSquare57.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 57;
+                btnSquare57.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare57.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare57.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare57MouseReleased
+
+    private void btnSquare58MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare58MouseReleased
+        if(btnSquare58.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 58;
+                btnSquare58.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare58.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare58.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare58MouseReleased
+
+    private void btnSquare59MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare59MouseReleased
+        if(btnSquare59.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 59;
+                btnSquare59.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare59.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare59.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare59MouseReleased
+
+    private void btnSquare61MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare61MouseReleased
+        if(btnSquare61.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 61;
+                btnSquare61.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare61.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare61.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare61MouseReleased
+
+    private void btnSquare62MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare62MouseReleased
+        if(btnSquare62.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 62;
+                btnSquare62.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare62.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare62.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare62MouseReleased
+
+    private void btnSquare63MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare63MouseReleased
+        if(btnSquare63.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 63;
+                btnSquare63.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare63.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare63.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare63MouseReleased
+
+    private void btnSquare60MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare60MousePressed
+        if(btnSquare60.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 60;
+                btnSquare60.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare60.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare60.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare60MousePressed
+
+    private void btnSquare64MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare64MouseReleased
+        if(btnSquare64.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 64;
+                btnSquare64.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare64.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare64.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare64MouseReleased
+
+    private void btnSquare65MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare65MouseReleased
+        if(btnSquare65.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 65;
+                btnSquare65.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare65.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare65.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare65MouseReleased
+
+    private void btnSquare66MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare66MouseReleased
+        if(btnSquare66.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 66;
+                btnSquare66.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare66.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare66.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare66MouseReleased
+
+    private void btnSquare67MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare67MouseReleased
+        if(btnSquare67.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 67;
+                btnSquare67.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare67.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare67.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare67MouseReleased
+
+    private void btnSquare68MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare68MouseReleased
+        if(btnSquare68.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 68;
+                btnSquare68.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare68.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare68.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare68MouseReleased
+
+    private void btnSquare69MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare69MouseReleased
+        if(btnSquare69.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 69;
+                btnSquare69.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare69.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare69.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare69MouseReleased
+
+    private void btnSquare70MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare70MouseReleased
+        if(btnSquare70.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 70;
+                btnSquare70.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare70.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare70.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare70MouseReleased
+
+    private void btnSquare71MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare71MouseReleased
+        if(btnSquare71.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 71;
+                btnSquare71.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare71.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare71.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare71MouseReleased
+
+    private void btnSquare72MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare72MouseReleased
+        if(btnSquare72.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 72;
+                btnSquare72.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare72.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare72.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare72MouseReleased
+
+    private void btnSquare73MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare73MouseReleased
+        if(btnSquare73.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 73;
+                btnSquare73.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare73.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare73.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare73MouseReleased
+
+    private void btnSquare74MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare74MouseReleased
+        if(btnSquare74.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 74;
+                btnSquare74.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare74.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare74.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare74MouseReleased
+
+    private void btnSquare75MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare75MouseReleased
+        if(btnSquare75.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 75;
+                btnSquare75.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare75.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare75.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare75MouseReleased
+
+    private void btnSquare76MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare76MouseReleased
+        if(btnSquare76.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 76;
+                btnSquare76.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare76.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare76.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare76MouseReleased
+
+    private void btnSquare77MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare77MouseReleased
+        if(btnSquare77.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 77;
+                btnSquare77.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare77.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare77.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare77MouseReleased
+
+    private void btnSquare78MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare78MouseReleased
+        if(btnSquare78.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 78;
+                btnSquare78.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare78.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare78.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare78MouseReleased
+
+    private void btnSquare79MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare79MouseReleased
+        if(btnSquare79.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 79;
+                btnSquare79.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare79.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare79.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare79MouseReleased
+
+    private void btnSquare80MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare80MouseReleased
+        if(btnSquare80.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 80;
+                btnSquare80.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare80.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare80.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare80MouseReleased
+
+    private void btnSquare81MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSquare81MouseReleased
+        if(btnSquare81.isEnabled())
+        {
+            if(isClear==false)
+            {
+                number_Choose = 81;
+                btnSquare81.setBackground(choosen);
+                checkChoice(evt);
+                btnSquare81.setBackground(jbb);
+            }
+            else
+            {
+                btnSquare81.setText("");
+                isClear=false;
+            }
+        }
+    }//GEN-LAST:event_btnSquare81MouseReleased
     private void UncheckBtn()
     {
         btnSquare1.setBackground(jbb);btnSquare2.setBackground(jbb);
@@ -3513,12 +3756,27 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
             btnSquare79.setBackground(jbb);btnSquare80.setBackground(jbb);
             btnSquare81.setBackground(jbb);
     }
-    private void checkChoice()
-    {
-        Form_Choice c = new Form_Choice(this,true);
-        c.setVisible(true);
-        c.setModal(false);
+    private void checkChoice(java.awt.event.MouseEvent e)
+    {   
         
+        if(SwingUtilities.isLeftMouseButton(e))
+        {
+            int x = (int) e.getXOnScreen();
+            int y = (int) e.getYOnScreen();
+            Form_Choice c = new Form_Choice(this,true);
+            c.setLocation(x, y);
+            c.setVisible(true);
+            c.setModal(false);
+        } 
+    }
+    private void DemoCheck(java.awt.event.ActionEvent e)
+    {
+             int x = 0;
+            int y = 0;
+            Form_Choice c = new Form_Choice(this,true);
+            c.setLocation(x, y);
+            c.setVisible(true);
+            c.setModal(false);
     }
     /**
      * @param args the command line arguments
@@ -3674,7 +3932,7 @@ public class Form_Main extends javax.swing.JFrame implements Runnable{
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JLabel lbThoigian;
     // End of variables declaration//GEN-END:variables
 }
